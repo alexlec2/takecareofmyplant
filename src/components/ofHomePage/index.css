@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li {
+        @apply px-10
+    }
+
+    button {
+        @apply text-white border bg-teal-500 border-teal-500
+        hover:bg-transparent hover:text-teal-500 rounded-md
+    }
+}
